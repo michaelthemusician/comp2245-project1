@@ -53,3 +53,46 @@ section {
 .btn:hover {
    background-color: #276479;
 }
+
+
+
+
+
+/* ~~~~~~~~~~~~ Header ~~~~~~~~~~~~ */
+.site-header {
+   padding: 16px 0;
+   border-bottom: 1px solid #E2E8F0;
+}
+
+.site-header .container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nav-links {
+   display: flex;
+   gap: 24px;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.logo,
+.nav-links a {
+   text-decoration: none;
+}
+
+.nav-links a {
+   color: #2D3748;
+   font-weight: bold;
+}
+
+.nav-links a:hover {
+   color: #2F855A;
+   text-decoration: underline;
+}
+
+.logo:hover {
+   text-decoration: underline;
+}
