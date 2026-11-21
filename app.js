@@ -20,6 +20,9 @@ function clearError(field) {
 form.addEventListener("submit", (event) => {
     event.preventDefault();
 
+    formMessage.textContent = "";
+    formMessage.classList.remove("success");
+
     const name = nameInput.value;
     const email = emailInput.value.trim();
     const frequency = frequencyInput.value;
@@ -59,5 +62,8 @@ form.addEventListener("submit", (event) => {
         return;
     }
 
-    //step 6b (thank-you message) goes here
+    //when every field is correct
+    formMessage.textContent = `Thank you, ${name}! You're on the mailing list.`;
+    formMessage.classList.add("success");
+    form.reset();
 });
