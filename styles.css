@@ -201,3 +201,59 @@ thead th {
    font-style: normal;
    color: #4A5568;
 }
+
+
+
+/* ~~~~~~~~~~~~ Join the mailing list ~~~~~~~~~~~~ */
+.signup .container {
+   text-align: center;
+}
+
+form {
+   max-width: 520px;
+   margin: 0 auto;
+   text-align: left;
+}
+
+label {
+   display: block;
+   font-weight: bold;
+   font-size: 16px;
+   margin-bottom: 6px;
+}
+
+input,
+select {
+   display: block;
+   width: 100%;
+   padding: 10px 12px;
+   border: 1px solid #A0AEC0;
+   border-radius: 8px;
+   font: inherit;
+}
+
+form .btn {
+   width: 100%;
+}
+
+.error {
+   min-height: 24px;
+   margin: 4px 0 8px;
+   font-size: 15px;
+   color: #C53030;
+}
+
+[aria-invalid="true"] {
+   border: 2px solid #C53030;
+}
+
+#form-message.success {
+max-width: 520px;
+margin: 24px auto 0;
+padding: 16px;
+border-radius: 8px;
+background-color: #C6F6D5;
+color: #22543D;
+font-weight: bold;
+text-align: center;
+}
