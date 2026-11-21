@@ -23,7 +23,7 @@ form.addEventListener("submit", (event) => {
     formMessage.textContent = "";
     formMessage.classList.remove("success");
 
-    const name = nameInput.value;
+    const name = nameInput.value.trim();
     const email = emailInput.value.trim();
     const frequency = frequencyInput.value;
 
